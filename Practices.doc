@@ -9,7 +9,19 @@ c. Find all vehicles that do not use Gasoline fuel.
 d. Find all vehicles whose Engine_CC is greater than 3000.
 
 e. Find all vehicles with exactly 8 cylinders.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Basic Retrieval & Filtering Queries
 
+a-Find the make names for all vehicles manufactured by Toyota.
+
+Find the make names of vehicles manufactured between 2010 and 2020
+
+c.Find the make names of vehicles that do not use gasoline fuel.
+
+d.Find the make names of vehicles whose Engine_CC is greater than 3000.
+
+e. Find the make names of vehicles with exactly 8 cylinders.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 2. Join Queries
 
 a. Find the vehicle display names along with their make names.
@@ -21,7 +33,7 @@ c. Find all vehicles with their body type names.
 d. Find all vehicles along with their drive type names.
 
 e. Find all vehicles with make, model, and submodel names.
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 3. Aggregate Queries
 
 a. Find the total number of vehicles in the database.
