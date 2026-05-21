@@ -9,6 +9,7 @@ c. Find all vehicles that do not use Gasoline fuel.
 d. Find all vehicles whose Engine_CC is greater than 3000.
 
 e. Find all vehicles with exactly 8 cylinders.
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Basic Retrieval & Filtering Queries
 
@@ -21,6 +22,7 @@ c.Find the make names of vehicles that do not use gasoline fuel.
 d.Find the make names of vehicles whose Engine_CC is greater than 3000.
 
 e. Find the make names of vehicles with exactly 8 cylinders.
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 2. Join Queries
 
@@ -33,6 +35,7 @@ c. Find all vehicles with their body type names.
 d. Find all vehicles along with their drive type names.
 
 e. Find all vehicles with make, model, and submodel names.
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 3. Aggregate Queries
 
@@ -43,5 +46,40 @@ b. Find the number of vehicles for each make.
 c. Find the average Engine_CC for each make.
 
 d. Find the maximum Engine_CC for each fuel type.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4. Subquery Practice
+
+a. Find all vehicles with Engine_CC greater than the average Engine_CC.
+
+b. Find all vehicles with the maximum Engine_CC.
+
+c. Find vehicles whose Engine_CC is one of the top 5 highest values.
+
+d. Find vehicles with FuelTypeID belonging to the most common fuel type.
+
+e. Find makes whose vehicle count is greater than the average vehicle count per make.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5. Correlated Subqueries
+
+a. Find vehicles whose Engine_CC is greater than the average Engine_CC of their make.
+
+b. Find vehicles that have the highest Engine_CC within their make.
+
+c. Find vehicles manufactured in the latest year for each make.
+
+d. Find vehicles whose cylinder count is above the average for their fuel type.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+6. EXISTS / NOT EXISTS
+
+a. Find makes that have at least one vehicle.
+
+b. Find fuel types that are not used by any vehicle.
+
+c. Find body types that have at least one vehicle.
+
+d. Find models that are not referenced by any vehicle.
 
 e. Find the minimum Engine_CC for each body type.
